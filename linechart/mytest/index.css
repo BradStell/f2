@@ -1,0 +1,17 @@
+.axis .x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.0px;
+}
+
+.text-anchor {
+  fill: black;
+}
+
+.axis text {
+  fill: black;
+}
