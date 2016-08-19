@@ -13,7 +13,11 @@ app.get('/r', function (req, res) {
 
 app.get('/nvd3', function (req, res) {
   res.sendFile(__dirname + '/nvd3/index.html');
-})
+});
+
+app.get('/i', function (req, res) {
+  res.sendFile(__dirname + '/interactiveDemo/index.html');
+});
 
 app.listen(3000);
 
